@@ -28,6 +28,4 @@ describe("GET api/primes", () => {
     expect(response.body).toEqual([7, 5, 3, 2]);
   });
 
-
-
 });
