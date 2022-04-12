@@ -2,7 +2,7 @@
 
 El servicio permite :
 
-    listar los n primeros numeros primos en base a una entrada que debe ser un numero entero 
+    listar los n primeros numeros primos en orden descendente en base a una entrada que debe ser un numero entero
 
 ### Indicaciones 
 - Instalar dependencias mediante comando **npm install**
