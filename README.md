@@ -1,6 +1,6 @@
 # Servicio Numeros Primos
 
-El servicio permite :
+Ruta /api/prime/:number :
 
     listar los n primeros numeros primos en orden descendente en base a una entrada que debe ser un numero entero
 
