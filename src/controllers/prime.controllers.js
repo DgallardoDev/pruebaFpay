@@ -4,11 +4,13 @@ export const listPrimes = (req, res) => {
   const number = parseInt(req.params.number);
 
   let primesArray = [];
+  try {
+    for (let i = number; i >= 2; i--) {
+      isPrime(i) ? primesArray.push(i) : false;
+    }
 
-  for (let i = number; i >= 2; i--) {
-    isPrime(i) ? primesArray.push(i) : false;
+    res.status(200).json(primesArray);
+  } catch (error) {
+    res.status(500).json(error.message);
   }
-
-   res.status(200).json(primesArray);
-
 };
