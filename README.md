@@ -12,4 +12,4 @@ Ruta /api/prime/:number
 - Despues de construir el build mediante el comando **npm run start** se ejecuta la aplicacion
 
 ### extras
-- Se deja como respaldo el archivo Dockerfile para conocer como se buildeo la imagen
+- Se deja como respaldo el archivo Dockerfile para conocer como se buildeo la imagen publicada en dockerhub url :https://hub.docker.com/r/diegoirg/prime-numbers
